@@ -20,7 +20,7 @@ gildong.read('USvideos.csv')
 ```python
 gildong.show_unique_column()
 ```
-![unique.png](images/unique.png)
+![unique.PNG](images/unique.PNG)
 
 - heatmap 그래프
   - 그래프를 보면 views(조회수), likes(좋아요), comment_count(댓글) 컬럼들이 높은 수치를 보여주며 상관관계가 있음을 나타냅니다.
@@ -63,4 +63,4 @@ gildong.drop(['video_id','trending_date','channel_title','publish_time','thumbna
 ```python
 gildong.run_all(['likes','comment_count','category_id'],'views')
 ```
-![runall.png](images/runall.png)
+![runall.PNG](images/runall.PNG)
